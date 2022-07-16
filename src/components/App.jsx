@@ -1,4 +1,4 @@
-import react, { Component } from 'react';
+import React from 'react';
 import Reader from './Reader';
 
 import publications from '../Data/publications.json';
