@@ -13,7 +13,7 @@ const Controls = ({ current, total, onChange }) => {
       <button
         type="button"
         disabled={current + 1 === total}
-        onClick={() => onChange(-1)}
+        onClick={() => onChange(+1)}
       >
         Вперед
       </button>
